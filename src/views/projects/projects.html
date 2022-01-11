@@ -1,0 +1,26 @@
+<div id="projects">
+    <Title :kind="projects"/>
+    <div class="projects-content">
+        <div class="projects-detail" v-for="(project, i) in projectsInfo" :key="i">
+            <div class="projects-name">
+                <b>{{project.name}}</b>
+            </div>
+            <div class="projects-date-people">
+                <p>{{project.datePeople}}</p>
+            </div>
+            <div class="projects-content-content">
+                <div class="projects-content-img">
+                    <img :src="require(`../../assets/img/${project.img}.png`)">
+                </div>
+                <div class="project-content-explanation">
+                    <p class="project-content-explanation-content">{{project.content}}</p>
+                    <div class="project-content-explanation-border"></div>
+                    <p class="projects-p"><b>● GitHub</b> : <a :href="project.source">{{project.source}}</a></p>
+                    <p class="projects-p"><b>● 도메인</b> : <a :href="project.domain">{{project.domain}}</a></p>
+                    <p class="projects-p"><b>● Front-End</b> : {{project.frontEnd}}</p>
+                    <p class="projects-p"><b>● IDE</b> : {{project.IDE}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

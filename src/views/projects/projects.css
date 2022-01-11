@@ -1,0 +1,126 @@
+#projects {
+    background: #1d809f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projects-content {
+    width: 1200px;
+    margin-top: 20px;
+}
+.projects-detail {
+    margin: 25px 0;
+    background: #ffffff;
+    border-radius: 20px;   
+}
+.projects-name{
+    padding: 20px 0;
+}
+.projects-name b{
+    font-size: 2em;
+}
+.projects-date-people p{
+    color: #6c757d;
+    margin: 10px 0;
+}
+.projects-content-content{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.projects-content-img img{
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+}
+.project-content-explanation {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 15px;
+}
+.project-content-explanation-content {
+    margin-bottom: 10px;
+}
+.project-content-explanation-border {
+    border-top: 1px solid #ccc;
+    width : 620px;
+    margin-bottom: 10px;
+}
+.projects-p{
+    margin-top: 5px;
+}
+.projects-p a{
+    text-decoration: none;
+}
+
+@media (max-width: 1300px){
+    .projects-name b{
+        font-size: 1.5em;
+    }
+    .projects-content{
+        width: 900px;
+    }
+    .projects-content-content{
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-content-explanation-border{
+        width: 500px;
+    }
+    .project-content-explanation-content{
+        width: 500px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 1000px){
+    .projects-name b{
+        font-size: 1.2em;
+    }
+    .projects-content{
+        width: 600px;
+    }
+    .projects-content-content{
+        width: 600px;
+    }
+    .projects-content-img img{
+        width: 300px; 
+        height: 300px;  
+    }
+}
+
+@media (max-width: 650px){
+    .projects-name b{
+        font-size: 1.2em;
+    }
+    .projects-content{
+        width: 300px;
+    }
+    .projects-content-content{
+        width: 300px;
+    }
+    .projects-content-img img{
+        width: 200px; 
+        height: 200px;  
+    }
+    .project-content-explanation-border{
+        width: 250px;
+    }
+    .project-content-explanation-content{
+        width: 250px;
+        font-size: 5px;
+    }
+    .projects-p{
+        text-align: left;
+        width: 265px;
+        font-size: 3px;
+    }
+    .projects-p a{
+        width: 100px;
+    }
+}

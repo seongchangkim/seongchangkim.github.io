@@ -1,0 +1,30 @@
+#introduction{
+    position: relative;
+    top: 0%;
+}
+.introduction-img > img{
+    margin-top: 70px;
+}
+.introduction-title{
+    margin-top : 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.introduction-border{
+    border-top: 5px solid red;
+    width: 50px;
+    margin: 0 auto;
+}
+.introduction-content p{
+    margin : 20px 0;
+    color: #ffffff;
+}
+
+@media (max-width:560px){
+    .introduction-title h1{
+        font-size: 15px;
+    } 
+    .introduction-content p {
+        font-size: 7px;
+    }
+}
