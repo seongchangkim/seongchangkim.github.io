@@ -17,8 +17,10 @@
 
 ## 주요 기능
 ### 1. 해당 컴포넌트 이동
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/74657556/148901658-66e005c4-0f5f-4d6d-b5ed-94cfcd41b161.gif)
 
-메뉴를 클릭하면 
+상단 오른쪽에 해당 메뉴를 클릭하면 해당 컴포넌트로 이동합니다. 
 ### 2. 메일 링크
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/74657556/148905046-2dd13a7b-7179-47fd-a74e-ff07c5ab23c0.gif)
 
-
+봉투 모양 부분을 클릭하면 Outlook를 열면서 메일을 보낼 수 있습니다.
