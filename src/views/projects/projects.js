@@ -37,6 +37,16 @@ export default{
                     frontEnd: 'Vue, JavaScript, npm, CSS3, HTML5, bootstrap',
                     IDE: 'Visual Studio Code'
                 },
+                {
+                    name: 'IT기기몰',
+                    img: 'it',
+                    datePeople: '2021.12.23 ~ 2021.12.25, 2021.12.29, 2022.1.1, 2022.1.4, 2022.1.11, 2022.1.13(1인 프로젝트)',
+                    content: 'JavaScript를 사용하고 postman으로 mockserver를 등록했습니다. 그것을 데이터로 가져와서 IT기기몰 목록을 구현했고 검색 기능을 구현했습니다.',
+                    source: 'https://github.com/seongchangkim/ITMachineMall-js',
+                    domain: 'https://seongchangkim.github.io/ITMachineMall-js/',
+                    frontEnd: 'JavaScript, CSS3, HTML5',
+                    IDE: 'Visual Studio Code'
+                },
             ],
             projects: "PROJECTS"
         }
