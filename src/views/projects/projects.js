@@ -47,6 +47,16 @@ export default{
                     frontEnd: 'JavaScript, CSS3, HTML5',
                     IDE: 'Visual Studio Code'
                 },
+                {
+                    name: '한 일 목록',
+                    img: 'toDoList',
+                    datePeople: '2022.01.27~2022.01.28(1인 프로젝트)',
+                    content: '순수 자바스크립트를 기반으로 만든 웹 프로젝트입니다. 한 일을 추가, 삭제를 가능하게 구현했고 시계 기능도 구현했습니다. 그리고 추가하고 싶은 한 일을 입력 안 하거나 같은 한 일을 입력하여 클릭 할 때 유효성 검사를 구현했습니다.',
+                    source: 'https://github.com/seongchangkim/to-do-list',
+                    domain: 'https://seongchangkim.github.io/to-do-list/',
+                    frontEnd: 'JavaScript, CSS3, HTML5',
+                    IDE: 'Visual Studio Code'
+                },
             ],
             projects: "PROJECTS"
         }
