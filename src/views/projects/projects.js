@@ -38,22 +38,22 @@ export default{
                     IDE: 'Visual Studio Code'
                 },
                 {
-                    name: 'IT기기몰',
-                    img: 'it',
-                    datePeople: '2021.12.23 ~ 2021.12.25, 2021.12.29, 2022.1.1, 2022.1.4, 2022.1.11, 2022.1.13(1인 프로젝트)',
-                    content: 'JavaScript를 사용하고 postman으로 mockserver를 등록했습니다. 그것을 데이터로 가져와서 IT기기몰 목록을 구현했고 검색 기능을 구현했습니다.',
-                    source: 'https://github.com/seongchangkim/ITMachineMall-js',
-                    domain: 'https://seongchangkim.github.io/ITMachineMall-js/',
-                    frontEnd: 'JavaScript, CSS3, HTML5',
-                    IDE: 'Visual Studio Code'
-                },
-                {
                     name: '한 일 목록',
                     img: 'toDoList',
                     datePeople: '2022.01.27~2022.01.28(1인 프로젝트)',
                     content: '순수 자바스크립트를 기반으로 만든 웹 프로젝트입니다. 한 일을 추가, 삭제를 가능하게 구현했고 시계 기능도 구현했습니다. 그리고 추가하고 싶은 한 일을 입력 안 하거나 같은 한 일을 입력하여 클릭 할 때 유효성 검사를 구현했습니다.',
                     source: 'https://github.com/seongchangkim/to-do-list',
                     domain: 'https://seongchangkim.github.io/to-do-list/',
+                    frontEnd: 'JavaScript, CSS3, HTML5',
+                    IDE: 'Visual Studio Code'
+                },
+                {
+                    name: '카드 게임',
+                    img: 'cardGame',
+                    datePeople: '2022.02.03~2022.02.07(1인 프로젝트)',
+                    content: '노마드 코더 ES6의 정석 강의를 통해 자바스크립트를 복습하여 만든 웹 게임 프로젝트입니다. 9개 카드 중 선택한 3개 카드가 같은 숫자이면 You\' re victory라는 알림창을 뜨는 것을 구현했고 그렇지 않을 경우에 Game Over!!라는 알림창을 뜨는 것을 구현했습니다.',
+                    source: 'https://github.com/seongchangkim/CardGame-js',
+                    domain: 'https://seongchangkim.github.io/CardGame-js/',
                     frontEnd: 'JavaScript, CSS3, HTML5',
                     IDE: 'Visual Studio Code'
                 },
