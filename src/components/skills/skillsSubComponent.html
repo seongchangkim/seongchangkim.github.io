@@ -3,6 +3,6 @@
         <h2>{{title}}</h2>
     </div>
     <div class="skills-sub-component-content">
-        <b-img v-for="(img, i) in imgArr" :key="i" :src="require(`../../assets/img/${img}.png`)"></b-img>
+        <b-img v-for="(img, i) in imgArr" :key="i" :src="require(`@/assets/img/${img[0]}.png`)" :style="img[1] !== 0 ? `width: ${img[1]}px`: ''"></b-img>
     </div>
 </div>

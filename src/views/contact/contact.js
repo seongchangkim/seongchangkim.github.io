@@ -1,5 +1,5 @@
 import { BIcon, BIconGithub, BIconEnvelopeFill } from 'bootstrap-vue';
-import Title from "../../components/title/title.vue";
+import Title from "@/components/title/title.vue";
 
 export default {
   components: {

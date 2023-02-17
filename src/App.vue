@@ -2,15 +2,24 @@
   <div id="app">
     <div class="top">
       <div class="top-nav">
-        <div class="logo">
-          <router-link to="/">KSC's portfolio</router-link>
+        <div class="logo" @click="onRefreshPage">
+          <!-- <router-link to="/">KSC's portfolio</router-link> -->
+          KSC's portfolio
         </div>
 
         <div class="sub-nav">
-          <div @click="moveComponent('aboutme')" class="sub-nav-div">About me</div>
-          <div @click="moveComponent('skills')" class="sub-nav-div">Skills</div>
-          <div @click="moveComponent('projects')" class="sub-nav-div">Projects</div>
-          <div @click="moveComponent('contact')" class="sub-nav-div">Contact</div>
+          <div @click="moveComponent('aboutme')" class="sub-nav-div">
+            About me
+          </div>
+          <div @click="moveComponent('skills')" class="sub-nav-div">
+            Skill Stack
+          </div>
+          <div @click="moveComponent('projects')" class="sub-nav-div">
+            Projects
+          </div>
+          <div @click="moveComponent('contact')" class="sub-nav-div">
+            Contact
+          </div>
         </div>
       </div>
 
@@ -21,7 +30,7 @@
 </template>
 
 <script>
-import Introduction from "./views/introduction/introduction.vue"; 
+import Introduction from "@/views/introduction/introduction.vue";
 
 export default {
   name: "App",
@@ -30,10 +39,13 @@ export default {
       console.log(document.getElementById(element));
       document.getElementById(element).scrollIntoView();
     },
+    onRefreshPage() {
+      window.location.reload();
+    },
   },
   components: {
     Introduction,
-  }
+  },
 };
 </script>
 
@@ -70,6 +82,10 @@ export default {
 .logo {
   padding-top: 10px;
   padding-left: 10px;
+  color: #000000;
+  cursor: default;
+  font-weight: 500;
+  margin-left: 10px;
 }
 
 .logo a {
@@ -83,21 +99,23 @@ export default {
   height: 50px;
   display: flex;
   justify-content: space-between;
+  margin-right: 10px;
 }
 
 .sub-nav > div {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #d5a6bd;
+  /* color: #d5a6bd; */
   cursor: default;
+  font-weight: 500;
 }
 
 @media (max-width: 500px) {
   .logo a {
     font-size: 10px;
   }
-  
+
   .sub-nav-div {
     font-size: 10px;
     padding-top: 5px;

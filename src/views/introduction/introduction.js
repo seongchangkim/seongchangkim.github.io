@@ -1,7 +1,7 @@
 export default{
     data(){
         return{
-            img: require(`../../assets/img/profile.jpg`),
+            img: require(`@/assets/img/profile.jpg`),
         }
     }
 }

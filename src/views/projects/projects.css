@@ -31,9 +31,11 @@
     margin-top: 50px;
 }
 .projects-content-img img{
-    width: 500px;
-    height: 500px;
-    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 10%;
+    margin-left: 40px;
 }
 .project-content-explanation {
     display: flex;
