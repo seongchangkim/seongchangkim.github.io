@@ -8,26 +8,6 @@ export default{
         return{
             projectsInfo: [
                 // {
-                //     name: '웹 계산기',
-                //     img: 'calculator',
-                //     datePeople: '2021.11.29~2021.12.01(1인 프로젝트)',
-                //     content: '순수 자바스크립트를 기반으로 만든 웹 프로젝트입니다. 자바스크립트를 이해하는데 도움이 되었고 기본적인 사칙연산을 할 수 있고 웬만한 계산기처럼 구현했습니다. 그리고 잘못된 연산자를 입력 시 유효성 검사를 구현했습니다.',
-                //     source: 'https://github.com/seongchangkim/Calculator-js',
-                //     domain: 'https://seongchangkim.github.io/Calculator-js/',
-                //     frontEnd: 'JavaScript, CSS3, HTML5',
-                //     IDE: 'WebStrom'
-                // },
-                // {
-                //     name: '코인 시세 분석 및 단위 변환할 수 있는 웹사이트',
-                //     img: 'cointrackerconverter',
-                //     datePeople: '2021.12.10~2021.12.12(1인 프로젝트)',
-                //     content: 'react를 사용하여 그래프를 통해서 각 코인별로 시세 분석할 수 있고 단위 변환할 수 있는 기능을 구현했습니다.',
-                //     source: 'https://github.com/seongchangkim/Coin-Tracker-Converter-React',
-                //     domain: 'https://seongchangkim.github.io/Coin-Tracker-Converter-React/',
-                //     frontEnd: 'React, JavaScript, npm, CSS3, HTML5, nivo',
-                //     IDE: 'Visual Studio Code'
-                // },
-                // {
                 //     name: '로또 추첨앱',
                 //     img: 'lottoapp',
                 //     datePeople:'2022.11.12~2022.12.19(1인 프로젝트)',
@@ -54,7 +34,7 @@ export default{
                     content: '인프런에서 Node.js 인강을 완강하고 백엔드 포트폴리오를 만들고 싶고 다른 백엔드 프로그래밍 언어보다 백엔드에서 공통적으로 제공하는 기능들을 쉽게 설정할 수 있어서  만들게 되었습니다. RDBMS 데이터베이스를 쉽게 연동할 수 있는 Sequelize 라이브러리를 써서 적용했고, 회원에 대한 기능에 유용한 JWT 그리고 Bcrypt 라이브러리를 적용했습니다. 왜나하면 로그인할 시 토큰으로 로그인 여부를 확인할 수 있고 bcrypt를 이용하여 비밀번호를 암호화해서 보안성이 좋아지기 때문입니다. 그리고 실제 서버를 호스팅 하고 싶어서 AWS EC2으로 Node.js 서버를 배포했습니다.',
                     source: 'https://github.com/seongchangkim/stock_server',
                     domain: '',
-                    skillStack: 'Node.js, Exprees.js, AWS',
+                    skillStack: 'JavaScript, Node.js, Exprees.js, AWS',
                     IDE: 'Visual Studio Code'
                 },
                 {
