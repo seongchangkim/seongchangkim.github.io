@@ -20,7 +20,7 @@ export default{
                 {
                     name: '주식 포트폴리오 관리 앱',
                     img: 'stockprod',
-                    datePeople:'2022.1.5~2023.02.17(1인 프로젝트)',
+                    datePeople:'2023.1.5~2023.02.17(1인 프로젝트)',
                     content: 'Flutter가 다른 앱 네이티브 프로그래밍 언어보다 단기간에 Android과 IOS 둘 다 개발할 수 있어서 주식 포트폴리오 앱 애플리케이션을 만들게 되었습니다. 기능은 회원, 자산 포트폴리오 두 가지로 나누어서 구현했는데 회원에 대한 기능은 로그인, 로그아웃, 회원가입 기능은 백엔드 api 호출하여 구현했고 자산 포트폴리오에 대한 기능은 CRUD(생성, 목록 및 상세 보기, 수정, 삭제) 기능을 백엔드 api 호출하여 구현했습니다.',
                     source: 'https://github.com/seongchangkim/stock_app',
                     domain: '',
@@ -40,7 +40,7 @@ export default{
                 {
                     name: '나만의 포트폴리오',
                     img: 'portfolio',
-                    datePeople: '2022.1.6~2021.1.10(1인 프로젝트), 2023.2.16~2023.2.17(2차 포트폴리오 작업)',
+                    datePeople: '2022.1.6~2022.1.10(1인 프로젝트), 2023.2.16~2023.2.17(포트폴리오 내용 갱신)',
                     content: 'vue, bootstrap를 사용하여 저만의 포트폴리오를 만들었습니다. 그리고 저만의 포트폴리오에 반응형 웹을 구현했습니다.',
                     source: 'https://github.com/seongchangkim/seongchangkim.github.io',
                     domain: 'https://seongchangkim.github.io/',
