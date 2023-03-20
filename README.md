@@ -12,8 +12,9 @@
 > 1. HTML5
 > 2. CSS3
 > 3. JavaScript
-> 4. Vue
-> 5. Bootstrap
+> 4. Vue 2.6.14
+> 5. Bootstrap 5.1.3
+> 6. node.js 16.19.0
 
 ## 주요 기능
 ### 1. 해당 컴포넌트 이동
