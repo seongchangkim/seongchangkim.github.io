@@ -18,6 +18,46 @@ export default{
                 //     IDE: 'Android Studio'
                 // },
                 {
+                    name: '자산 포트폴리오 관리 웹사이트',
+                    img: 'asset-portfolio-platform',
+                    datePeople:'2023.07.09~2023.08.19(1인 프로젝트)',
+                    content: 'JavaScript로 프론트엔드 및 백엔드를 구현할 수 있는 풀스택이 가능함으로써 Next.js를 활용하여 자산 포트폴리오 관리 웹사이트를 만들게 되었습니다. 기능은 대분류로 회원, 관리자, 자산 포트폴리오를 세 가지가 분류했는데 첫 번째로는 회원에 관한 기능에 대해서 설명하면 로그인, 로그아웃, 회원가입, 소셜 로그인, 프로필 상세보기 그리고 프로필 수정 및 삭제 기능 등을 통해 회원이 이용할 수 있게 하도록 구현했습니다. 두 번째로는 관리자에 관한 기능에 대해서 설명하면 회원 목록, 회원 상세보기, 회원 수정/삭제 기능 등을 통해 회원 관리할 수 있도록 구현했습니다. 마지막으로는 자산 포트폴리오에 관한 기능을 설명하면 자산 포트폴리오에 관한 CRUD 기능을 통해 자산 포트폴리오를 관리할 수 있도록 구현했습니다. 그리고 AWS EC2를 통해 이 사이트를 웹서비스를 할 수 있도록 설정했습니다.',
+                    source: 'https://github.com/seongchangkim/asset-portfolio-platform',
+                    domain: '',
+                    skillStack: 'next.js, node.js, mysql, Exprees.js, React.js, JavaScript(ES6), Amazon EC2, tailwindcss',
+                    IDE: 'Visual Studio Code'
+                },
+                {
+                    name: '자산 포트폴리오 관리 앱',
+                    img: 'stockprod',
+                    datePeople:'2023.1.5~2023.02.17(1인 프로젝트)',
+                    content: 'Flutter가 다른 앱 네이티브 프로그래밍 언어보다 단기간에 Android과 IOS 둘 다 개발할 수 있어서 주식 포트폴리오 앱 애플리케이션을 만들게 되었습니다. 기능은 회원, 자산 포트폴리오 두 가지로 나누어서 구현했는데 회원에 대한 기능은 로그인, 로그아웃, 회원가입 기능은 백엔드 api 호출하여 구현했고 자산 포트폴리오에 대한 기능은 CRUD(생성, 목록 및 상세 보기, 수정, 삭제) 기능을 백엔드 api 호출하여 구현했습니다.',
+                    source: 'https://github.com/seongchangkim/stock_app',
+                    domain: '',
+                    skillStack: 'Flutter, Dart',
+                    IDE: 'Visual Studio Code'
+                },
+                {
+                    name: '자산 포트폴리오 관리 앱 서버',
+                    img: 'stockprod',
+                    datePeople:'2022.12.18~2023.02.14(1인 프로젝트)',
+                    content: '인프런에서 Node.js 인강을 완강하고 백엔드 포트폴리오를 만들고 싶고 다른 백엔드 프로그래밍 언어보다 백엔드에서 공통적으로 제공하는 기능들을 쉽게 설정할 수 있어서  만들게 되었습니다. RDBMS 데이터베이스를 쉽게 연동할 수 있는 Sequelize 라이브러리를 써서 적용했고, 회원에 대한 기능에 유용한 JWT 그리고 Bcrypt 라이브러리를 적용했습니다. 왜나하면 로그인할 시 토큰으로 로그인 여부를 확인할 수 있고 bcrypt를 이용하여 비밀번호를 암호화해서 보안성이 좋아지기 때문입니다. 그리고 실제 서버를 호스팅 하고 싶어서 AWS EC2으로 Node.js 서버를 배포했습니다.',
+                    source: 'https://github.com/seongchangkim/stock_server',
+                    domain: '',
+                    skillStack: 'JavaScript, Node.js, Exprees.js, Amazon EC2, MySql',
+                    IDE: 'Visual Studio Code'
+                },
+                {
+                    name: '나만의 개발 포트폴리오 수정본(4차)',
+                    img: 'portfolio',
+                    datePeople: '2023.8.20(1인 프로젝트)',
+                    content: 'vue, bootstrap를 사용하여 저만의 포트폴리오를 만들었습니다. 그리고 저만의 포트폴리오에 반응형 웹을 구현했습니다.',
+                    source: 'https://github.com/seongchangkim/seongchangkim.github.io',
+                    domain: 'https://seongchangkim.github.io/',
+                    skillStack:  'Vue, JavaScript, npm, CSS3, HTML5, bootstrap',
+                    IDE: 'Visual Studio Code'
+                },
+                {
                     name: '가계부 플랫폼 서버',
                     img: 'account-book-admin-web',
                     datePeople:'2023.5.11~2023.06.19(33일)(1인 프로젝트)',
@@ -45,36 +85,6 @@ export default{
                     source: 'https://github.com/seongchangkim/account_book_admin_web.git',
                     domain: '',
                     skillStack: 'Vite, Vue.js, JavaScript, npm, CSS3, HTML5, tailwindCSS',
-                    IDE: 'Visual Studio Code'
-                },
-                {
-                    name: '자산 포트폴리오 관리 앱',
-                    img: 'stockprod',
-                    datePeople:'2023.1.5~2023.02.17(1인 프로젝트)',
-                    content: 'Flutter가 다른 앱 네이티브 프로그래밍 언어보다 단기간에 Android과 IOS 둘 다 개발할 수 있어서 주식 포트폴리오 앱 애플리케이션을 만들게 되었습니다. 기능은 회원, 자산 포트폴리오 두 가지로 나누어서 구현했는데 회원에 대한 기능은 로그인, 로그아웃, 회원가입 기능은 백엔드 api 호출하여 구현했고 자산 포트폴리오에 대한 기능은 CRUD(생성, 목록 및 상세 보기, 수정, 삭제) 기능을 백엔드 api 호출하여 구현했습니다.',
-                    source: 'https://github.com/seongchangkim/stock_app',
-                    domain: '',
-                    skillStack: 'Flutter, Dart',
-                    IDE: 'Visual Studio Code'
-                },
-                {
-                    name: '자산 포트폴리오 관리 앱 서버',
-                    img: 'stockprod',
-                    datePeople:'2022.12.18~2023.02.14(1인 프로젝트)',
-                    content: '인프런에서 Node.js 인강을 완강하고 백엔드 포트폴리오를 만들고 싶고 다른 백엔드 프로그래밍 언어보다 백엔드에서 공통적으로 제공하는 기능들을 쉽게 설정할 수 있어서  만들게 되었습니다. RDBMS 데이터베이스를 쉽게 연동할 수 있는 Sequelize 라이브러리를 써서 적용했고, 회원에 대한 기능에 유용한 JWT 그리고 Bcrypt 라이브러리를 적용했습니다. 왜나하면 로그인할 시 토큰으로 로그인 여부를 확인할 수 있고 bcrypt를 이용하여 비밀번호를 암호화해서 보안성이 좋아지기 때문입니다. 그리고 실제 서버를 호스팅 하고 싶어서 AWS EC2으로 Node.js 서버를 배포했습니다.',
-                    source: 'https://github.com/seongchangkim/stock_server',
-                    domain: '',
-                    skillStack: 'JavaScript, Node.js, Exprees.js, Amazon EC2',
-                    IDE: 'Visual Studio Code'
-                },
-                {
-                    name: '나만의 개발자 포트폴리오 수정본',
-                    img: 'portfolio',
-                    datePeople: '2023.2.16~2023.2.17(1인 프로젝트)',
-                    content: 'vue, bootstrap를 사용하여 저만의 포트폴리오를 만들었습니다. 그리고 저만의 포트폴리오에 반응형 웹을 구현했습니다.',
-                    source: 'https://github.com/seongchangkim/seongchangkim.github.io',
-                    domain: 'https://seongchangkim.github.io/',
-                    skillStack:  'Vue, JavaScript, npm, CSS3, HTML5, bootstrap',
                     IDE: 'Visual Studio Code'
                 },
                 {
@@ -117,16 +127,16 @@ export default{
                     skillStack: 'React, JavaScript, npm, CSS3, HTML5, nivo',
                     IDE: 'Visual Studio Code'
                 },
-                {
-                    name: '웹 계산기',
-                    img: 'calculator',
-                    datePeople: '2021.11.29~2021.12.01(1인 프로젝트)',
-                    content: '순수 자바스크립트를 기반으로 만든 웹 프로젝트입니다. 자바스크립트를 이해하는데 도움이 되었고 기본적인 사칙연산을 할 수 있고 웬만한 계산기처럼 구현했습니다. 그리고 잘못된 연산자를 입력 시 유효성 검사를 구현했습니다.',
-                    source: 'https://github.com/seongchangkim/Calculator-js',
-                    domain: 'https://seongchangkim.github.io/Calculator-js/',
-                    skillStack: 'JavaScript, CSS3, HTML5',
-                    IDE: 'WebStrom'
-                },
+                // {
+                //     name: '웹 계산기',
+                //     img: 'calculator',
+                //     datePeople: '2021.11.29~2021.12.01(1인 프로젝트)',
+                //     content: '순수 자바스크립트를 기반으로 만든 웹 프로젝트입니다. 자바스크립트를 이해하는데 도움이 되었고 기본적인 사칙연산을 할 수 있고 웬만한 계산기처럼 구현했습니다. 그리고 잘못된 연산자를 입력 시 유효성 검사를 구현했습니다.',
+                //     source: 'https://github.com/seongchangkim/Calculator-js',
+                //     domain: 'https://seongchangkim.github.io/Calculator-js/',
+                //     skillStack: 'JavaScript, CSS3, HTML5',
+                //     IDE: 'WebStrom'
+                // },
                 
             ],
             projects: "PROJECTS"
