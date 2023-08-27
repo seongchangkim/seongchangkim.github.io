@@ -1,24 +1,40 @@
-<div id="projects">
+<div id="projects" class="d-flex flex-column align-items-center text-center">
     <Title :kind="projects"/>
-    <div class="projects-content">
-        <div class="projects-detail" v-for="(project, i) in projectsInfo" :key="i">
-            <div class="projects-name">
-                <b>{{project.name}}</b>
+    <div class="projects-content mt-5 mb-0">
+        <div class="my-5 bg-white rounded-5 col-xl-12 col-lg-9 col-md-7 col-sm-4 col-2 mx-auto" v-for="(project, i) in projectsInfo" :key="i">
+            <div class="py-3">
+                <b class="fs-2">{{project.name}}</b>
             </div>
-            <div class="projects-date-people">
-                <p>{{project.datePeople}}</p>
+            <div class="my-2">
+                <p class="text-muted">{{project.datePeople}}</p>
             </div>
-            <div class="projects-content-content">
-                <div class="projects-content-img">
-                    <img :src="require(`@/assets/img/${project.img}.png`)">
+            <div class="projects-content-content d-flex justify-content-center my-5 mx-auto col-lg-12 col-md-11 col-sm-10 col-9 flex-xl-row flex-lg-column flex-md-column flex-sm-column flex-column">
+                <div class="projects-content-img mx-3">
+                    <img class="object-fit-cover col-sm-2" :src="require(`@/assets/img/${project.img}.png`)">
                 </div>
-                <div class="project-content-explanation">
-                    <p class="project-content-explanation-content">{{project.content}}</p>
-                    <div class="project-content-explanation-border"></div>
-                    <p class="projects-p"><b>● GitHub</b> : <a :href="project.source" target="_blank">{{project.source}}</a></p>
-                    <p v-if="project.domain !== ''"class="projects-p"><b>● 도메인</b> : <a :href="project.domain" target="_blank">{{project.domain}}</a></p>
-                    <p class="projects-p"><b>● Skill Stack</b> : {{project.skillStack}}</p>
-                    <p class="projects-p"><b>● IDE</b> : {{project.IDE}}</p>
+                <div class="d-flex align-items-start flex-column m-4 mx-3">
+                    <div>
+                        <p class="project-explanation-title mb-1 fw-semibold">프로젝트 소개</p>
+                        <p class="mb-10">{{project.content}}</p>
+                    </div>
+                    <div>
+                        <p class="project-explanation-title mb-1 fw-semibold">프로젝트 내용</p>
+                        <p class="mb-10">{{project.content}}</p>
+                    </div>
+                    
+                    <div class="w-100 border mb-2 mt-0"></div>
+                    <p class="mt-1 mb-0 fw-bold">
+                        ● GitHub : <a class="text-decoration-none text-start fw-normal" :href="project.source" target="_blank">Github 이동</a>
+                    </p>
+                    <p class="mt-1 mb-0 fw-bold" v-if="project.domain !== ''">
+                        ● 도메인 : <a class="text-decoration-none text-start fw-normal" :href="project.domain" target="_blank">도메인 이동</a>
+                    </p>
+                    <p class="mt-1 mb-0 text-start">
+                        <b>● Skill Stack : </b> {{project.skillStack}}
+                    </p>
+                    <p class="mt-1 mb-0 text-start">
+                        <b>● IDE : </b> {{project.IDE}}
+                    </p>
                 </div>
             </div>
         </div>

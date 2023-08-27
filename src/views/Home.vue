@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import AboutMe from './aboutme/aboueMe.vue'
-import Skills from './skills/skills.vue'
-import Projects from './projects/projects.vue'
-import Contact from './contact/contact.vue'
+import AboutMe from "./aboutme/aboueMe.vue";
+import Skills from "./skills/skills.vue";
+import Projects from "./projects/projects.vue";
+import Contact from "./contact/contact.vue";
 
 export default {
   name: "Home",
@@ -19,7 +19,13 @@ export default {
     AboutMe,
     Skills,
     Projects,
-    Contact
-  }
+    Contact,
+  },
 };
 </script>
+
+<style>
+html {
+  font-size: 15px;
+}
+</style>

@@ -1,8 +1,8 @@
-<div id="skills-sub-component">
-    <div class="skills-sub-component-top">
-        <h2>{{title}}</h2>
+<div class="col-xl-8 col-lg-7 col-md-6 col-sm-6 bg-white my-5 mx-auto rounded-5">
+    <div class="mb-4 mt-0">
+        <h2 class="py-4 px-0 border-bottom">{{title}}</h2>
     </div>
     <div class="skills-sub-component-content">
-        <b-img v-for="(img, i) in imgArr" :key="i" :src="require(`@/assets/img/${img[0]}.png`)" :style="img[1] !== 0 ? (img[2] !== 0 ? `width: ${img[1]}px; height: ${img[2]}px` : `width: ${img[1]}px`): ''"></b-img>
+        <b-img v-for="(img, i) in imgArr" :key="i" :src="require(`@/assets/img/${img[0]}.png`)" class="m-1"></b-img>
     </div>
 </div>

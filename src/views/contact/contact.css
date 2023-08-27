@@ -1,28 +1,6 @@
 #contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background: #21a1bb;
-    padding-bottom: 20px;
 }
 .page-contact{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width : 200px;
-}
-.page-contact > div{
-    margin: 10px;
-}
-
-.page-contact > div > a{
-    color: #000000;
-}
-
-@media (max-width: 400px){
-    .page-right{
-        font-size: 10px;
-    }
 }
