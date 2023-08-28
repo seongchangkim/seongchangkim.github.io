@@ -13,21 +13,21 @@
                     <img class="object-fit-cover col-sm-2" :src="require(`@/assets/img/${project.img}.png`)">
                 </div>
                 <div class="d-flex align-items-start flex-column m-4 mx-3">
-                    <div>
-                        <p class="project-explanation-title mb-1 fw-semibold">프로젝트 소개</p>
-                        <p class="mb-10">{{project.content}}</p>
-                    </div>
-                    <div>
-                        <p class="project-explanation-title mb-1 fw-semibold">프로젝트 내용</p>
-                        <p class="mb-10">{{project.content}}</p>
+                    <ProjectContentComponent title="프로젝트 계기" :content="project.motivation"/>
+                    <ProjectContentComponent title="프로젝트 소개" :content="project.introduction"/>
+                    <div class="mx-auto">
+                        <p class="project-explanation-title mb-1 fw-semibold">프로젝트 적용했던 기술</p>
+                        <div v-for="(content, i) in project.contents" :key="i">
+                            <p class="mb-1 mt-0 text-center">● {{content}}</p>
+                        </div>
                     </div>
                     
                     <div class="w-100 border mb-2 mt-0"></div>
                     <p class="mt-1 mb-0 fw-bold">
-                        ● GitHub : <a class="text-decoration-none text-start fw-normal" :href="project.source" target="_blank">Github 이동</a>
+                        ● GitHub : <a class="text-decoration-none text-start fw-normal" :href="project.source" target="_blank">Github 새 탭 띄우기</a>
                     </p>
                     <p class="mt-1 mb-0 fw-bold" v-if="project.domain !== ''">
-                        ● 도메인 : <a class="text-decoration-none text-start fw-normal" :href="project.domain" target="_blank">도메인 이동</a>
+                        ● 도메인 : <a class="text-decoration-none text-start fw-normal" :href="project.domain" target="_blank">도메인 새 탭 띄우기</a>
                     </p>
                     <p class="mt-1 mb-0 text-start">
                         <b>● Skill Stack : </b> {{project.skillStack}}

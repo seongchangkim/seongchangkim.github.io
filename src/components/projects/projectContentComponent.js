@@ -1,10 +1,10 @@
 export default {
-    props:{
+    props: {
         title:{
             type: String
         },
-        imgArr:{
-            type: Array
-        },
+        content:{
+            type: String
+        }
     }
 }
