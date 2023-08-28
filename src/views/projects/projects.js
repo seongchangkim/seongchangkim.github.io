@@ -37,7 +37,7 @@ export default {
                     IDE: 'Visual Studio Code'
                 },
                 {
-                    name: '나만의 개발 포트폴리오 수정본(4차)',
+                    name: '나만의 개발 포트폴리오 UI 수정(2차)',
                     img: 'portfolio',
                     datePeople: '2023.8.27~8.28(2일)(1인 프로젝트)',
                     motivation: 'vue 인강을 통해 독학했던 개념을 적용하고 싶어서 bootstrap와 같이 사용하여 저만의 포트폴리오를 만들게 되었습니다.',
