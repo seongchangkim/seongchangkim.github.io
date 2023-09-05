@@ -32,7 +32,7 @@ export default {
                         'node.js가 논 블로킹 싱글 스레드인 점에서 성능에 한계가 있었는데 PM2 npm 모듈을 통해 CPU의 멀티 코어 시스템을 사용하게 함으로써 node.js 서버 성능을 끌어올렸습니다.',
                     ],
                     source: 'https://github.com/seongchangkim/asset-portfolio-platform',
-                    domain: 'http://ec2-13-125-65-113.ap-northeast-2.compute.amazonaws.com:3000/',
+                    domain: '',
                     skillStack: 'next.js, node.js, mysql, Exprees.js, React.js, JavaScript(ES6), Amazon EC2, tailwindcss',
                     IDE: 'Visual Studio Code'
                 },
