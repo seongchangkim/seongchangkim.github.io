@@ -84,7 +84,7 @@ export default {
                         '기능을 구현하다 보니 중복 코드가 종종 생겨서 코드 관리하기 힘든 점이 있었습니다. 그래서 중복 코드 제거, 각 엔터티에 Setter 사용을 자제하고 생성 메소드, 수정 메소드 등의 로직을 만들고 JPA에서 제공한 임배디드 엔터티를 생성해서 각 엔터티에 적용함으로써 유지보수성을 높였습니다.'
                     ],
                     source: 'https://github.com/seongchangkim/account-book',
-                    domain: 'http://ec2-3-38-238-225.ap-northeast-2.compute.amazonaws.com:8080/login',
+                    // domain: 'http://ec2-3-38-238-225.ap-northeast-2.compute.amazonaws.com:8080/login',
                     skillStack: 'Spring boots, Java, MySQL, Vite, Vue.js, JavaScript, npm, CSS3, HTML5, tailwindCSS, Flutter, Dart',
                     IDE: 'Intellij, Visual Studio Code'
                 },
