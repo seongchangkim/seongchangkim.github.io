@@ -4,7 +4,7 @@ import Title from "@/components/title/title.vue";
 export default{
     data(){
         return{
-            backEndArr: [["nodejs", 500, 0], ["springBoot", 0, 0]],
+            backEndArr: [["nodejs", 0, 0], ["springBoot", 0, 0],["nestjs", 0, 0]],
             rdbmsArr: [["mysql", 0, 0]],
             versionControlArr: [["git", 0, 0], ["github", 0, 0]],
             IDEArr: [["vscode", 0, 0], ["webstrom", 0, 0], ["IntelliJ-IDEA", 350, 0]],

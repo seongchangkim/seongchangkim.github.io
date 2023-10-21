@@ -20,6 +20,23 @@ export default {
                 //     IDE: 'Android Studio'
                 // },
                 {
+                    name: '틱택토 웹 게임',
+                    img: 'tic-tac-toe-web',
+                    datePeople:'2023.09.28~2023.10.19(1인 프로젝트)',
+                    motivation: 'Nest.js는 IOC, DI를 할 수 있어서 객체지향 프로그래밍을 구현할 수 있는 node.js 서버 프레임워크이고 웹 게임을 만들고 싶어서 틱택토 게임을 만들게 되었습니다.',
+                    introduction: '로그인, 로그아웃, 회원가입, 소셜 로그인 등을 통해 회원이 이용할 수 있고 관리자 전용 웹 페이지를 설정해서 회원 목록, 회원 상세보기, 회원 수정/삭제 기능 등을 통해 회원 관리할 수 있습니다. 그리고 회원 상관 없이 컴퓨터와 틱택토 게임을 할 수 있습니다.',
+                    contents: [
+                        'bcrypt npm 모듈를 통해 bcrypt 해시 암호화 알고리즘을 적용함으로써 회원에 대한 보안성을 높였습니다.',
+                        '가계부 플랫폼과 마찬가지로 jsonwebtoken npm 모듈을 통해 JWT 토큰 부분을 설정한 다음에 JWT 토큰 인증 방식으로 회원을 인증하도록 하여 서버에 부담을 덜하도록 했습니다.',
+                        '서버에 Swagger를 적용함으로써 postman, jest 및 클라이언트 등을 없이 RESTful API를 문서화하여 테스트할 수 있도록 구현했습니다.',
+                        'Request DTO 및 Nest.js에서 제공한 ValidationPipe를 이용하여 서버에 유효성 검사할 수 있도록 구현했습니다.',
+                    ],
+                    source: 'https://github.com/seongchangkim/tic-tac-toe-web',
+                    domain: '',
+                    skillStack: 'nest.js, mysql, vue.js, TypeScript, tailwindcss',
+                    IDE: 'Visual Studio Code'
+                },
+                {
                     name: '자산 포트폴리오 관리 웹사이트',
                     img: 'asset-portfolio-platform',
                     datePeople:'2023.07.09~2023.08.19(1인 프로젝트)',
