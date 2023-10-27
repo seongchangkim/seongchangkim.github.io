@@ -56,7 +56,7 @@ export default {
                 {
                     name: '나만의 개발 포트폴리오 UI 수정(2차)',
                     img: 'portfolio',
-                    datePeople: '2023.8.27~8.28(2일)(1인 프로젝트)',
+                    datePeople: '2023.10.17~10.19(2일)(1인 프로젝트)',
                     motivation: 'vue 인강을 통해 독학했던 개념을 적용하고 싶어서 bootstrap와 같이 사용하여 저만의 포트폴리오를 만들게 되었습니다.',
                     introduction: '포트폴리오 목록, 기술 스택, 나의 소개 그리고 메일 전송 기능을 포함한 웹 애플리케이션입니다.',
                     contents: [
